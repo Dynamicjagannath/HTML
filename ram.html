@@ -1,0 +1,107 @@
+<html>
+<head>
+	<style type="text/css">
+		#d1{
+			height: 600px;
+			width: 400px;
+		}
+		body{
+		place-items: center;
+		display: grid;
+		background-color:red;
+		animation-name:dil;
+		animation-duration:1s;
+		animation-iteration-count:infinite;
+		}
+		@keyframes dil{
+			0%{background-color:yellow;}
+			15%{background-color:red;}
+			30%{background-color:orange;}
+			50%{background-color:aqua;}
+			80%{background-color:pink;}
+			100%{background-color:green;}
+	}
+		#d2{
+			height: 40%;
+			width: 100%;
+			background-color: orange;
+			position: fixed;
+			top: 0%;
+			animation-name: cool;
+			animation-duration: 7s;
+			animation-delay: 2s;
+		}
+		#d3{
+			height: 20%;
+			width: 100%;
+			position: fixed;
+			top: 40%;
+			float: left;
+		}
+		#a1{
+			height: 100%;
+			width: 50%;
+			background-color: white;
+			float: left;
+			animation-name: ram;
+			animation-duration: 7s;
+			text-align: right;
+			animation-delay: 2s;
+			color: red;
+			font-size: 25px;
+
+		}
+		#a2{
+			height: 100%;
+			width: 50%;
+			background-color: white;
+			float: right;
+			animation-name: sita;
+			animation-duration: 7s;
+			animation-delay: 2s;
+			color: red;
+			font-size: 25px;
+		}
+		#d4{
+			height: 40%;
+			width: 100%;
+			background-color: green;
+			position: fixed;
+			bottom: 0%;
+			animation-name: cool2;
+			animation-duration: 7s;
+			animation-delay: 2s;
+		}
+		@keyframes ram{
+			from{width: 50%;}
+			to{width: 0%;}
+		}
+		@keyframes sita{
+			from{width: 50%;}
+			to{width: 0%;}
+		}
+		@keyframes cool{
+			from{height: 40%;}
+			to{height: 0%;}
+		}
+		@keyframes cool2{
+			from{height: 40%;}
+			to{height: 0%;}
+		}
+	</style>
+</head>
+<body>
+	<audio><source src="siyaram.mp3" type="audio/mpeg"></audio>
+	<div id="d1"><img src="ram.jpg" style="height: 600px; width: 400px;"></div>
+	<div id="d2"></div>
+	<div id="d3">
+		<div id="a1">ଜୟ ଶ୍ରୀ
+			<p>Welcome To</p>
+</div>
+		<div id="a2">ରାମ
+			<p>Ayodha</p>
+</div>
+	</div>
+	<div id="d4"></div>
+</body>
+</html>
